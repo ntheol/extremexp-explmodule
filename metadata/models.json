@@ -1,0 +1,23 @@
+{
+    "I2Cat_Phising_model" : {
+        "pdp_ale_surrogate_model" : "metadata/proxy_data_models/surrogate_model.pkl",
+        "original_model" : "metadata/proxy_data_models/phising_fullgrid.pkl",
+        "all_models": "metadata/proxy_data_models/I2cat_trained_models.pkl",
+        "cfs_surrogate_model" : "metadata/proxy_data_models/phising_cfproxy.pkl",
+        "cfs_surrogate_dataset" : "metadata/proxy_data_models/phising_cfdataset.csv"
+    },
+
+    "UNSW_NB15_model" : {
+        "pdp_ale_surrogate_model" : "metadata/proxy_data_models/UNSW_pdp_ale_proxy.pkl",
+        "original_model" : "metadata/proxy_data_models/optimizer_fullgrid.pkl",
+        "cfs_surrogate_model" : "metadata/proxy_data_models/cfproxy_model_grid.pkl",
+        "cfs_surrogate_dataset" : "metadata/proxy_data_models/cfproxy_dataset_grid.csv"
+    },
+    "Ideko_model" : {
+        "pdp_ale_surrogate_model" : "metadata/proxy_data_models/ideko_surrogate_model_new.pkl",
+        "original_model" : "metadata/proxy_data_models/Ideko_nn_grid_new.pkl",
+        "all_models": "metadata/proxy_data_models/ideko_models.pkl",
+        "cfs_surrogate_model" : "metadata/proxy_data_models/ideko_cfproxy.pkl",
+        "cfs_surrogate_dataset" : "metadata/proxy_data_models/ideko_cfdataset.csv"
+    }
+}
